@@ -1,6 +1,68 @@
-# About Me:
-🔨 I’m currently working on<br>	•	Multi-agent LLM pipelines, AI-assisted software development, SAP automation tools (ayAware, ayAgree, ayAInvoice).<br>	•	Web development projects using Python (FastAPI), React, PostgreSQL and SAP integrations.<br>	•	My MSc capstone project: Multi-Agent LLM Pipeline for Software Development (WebWeaver).<br><br>🤝 I’m looking to collaborate on<br>	•	AI-based automation, LLM agents, NLP, ML pipelines<br>	•	SAP-integrated modern web applications<br>	•	Open-source tools for workflow automation<br><br>🐛 I’m looking for help with<br>	•	Advanced model training (Diffusion, GNNs, LoRA fine-tuning)<br>	•	Scaling AI apps via cloud platforms (GCP, Azure, BTP)<br><br>🌱 I’m currently learning<br>	•	Advanced AI agents, LLM orchestration, LangChain, LangGraph<br>	•	Cloud-native architectures, Kubernetes, Terraform<br>	•	Drug discovery pipelines (HER2-targeted molecule generation) for thesis<br><br>💬 Ask me about<br>	•	SAP ABAP, S/4HANA, BTP development<br>	•	Multi-agent LLM architectures and AI-driven automation<br>	•	Building full-stack apps from scratch (FastAPI + React + PostgreSQL)<br><br>⚡ Fun fact<br>	•	My side projects scale faster than my free time.
+# Umut Şanlı
 
+Software Engineer and Customer Solution Manager focused on enterprise software, AI-assisted automation, SAP development, and modern web applications.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_umutsanli) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/umutsanli) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:umut.sanli@umutsanli.com) 
+I work at the intersection of business needs and technical implementation, designing and delivering solutions that combine SAP expertise, full-stack development, and AI-driven systems.
+
+## About Me
+
+- Customer Solution Manager with a background in SAP ABAP development, enterprise solution design, and technical leadership
+- MSc in Software Engineering
+- Experienced in building AI-assisted applications, workflow automation tools, and SAP-integrated platforms
+- Interested in multi-agent LLM systems, enterprise AI adoption, and scalable software architecture
+
+## Current Focus
+
+- Multi-agent LLM pipelines for software development
+- AI-powered enterprise automation products
+- SAP-integrated web applications
+- Full-stack development with Python, FastAPI, React, and PostgreSQL
+- Cloud-native architectures and deployment workflows
+
+## Core Expertise
+
+- SAP ABAP, S/4HANA, SAP BTP
+- Enterprise solution design and customer-facing technical consulting
+- AI-assisted software systems and workflow automation
+- Backend development with Python and FastAPI
+- Frontend development with React
+- Relational databases and API-based integrations
+- Docker, Kubernetes, Terraform, and cloud platforms
+
+## Selected Projects
+
+### WebWeaver
+Multi-agent LLM pipeline for software development.  
+An AI-based system designed to automate website and application creation through specialized agents responsible for planning, design, content generation, implementation, and quality assurance.
+
+### ayAInvoice
+AI-powered invoice automation solution integrated with SAP processes.  
+Focused on reducing manual financial operations through intelligent document handling and enterprise workflow integration.
+
+### ayAgree
+SAP-integrated e-reconciliation platform.  
+Designed to streamline reconciliation processes between companies and their business partners through a structured and auditable workflow.
+
+### ayAware
+AI-assisted task and risk tracking solution.  
+Built to improve operational visibility, prioritization, and execution monitoring for enterprise teams.
+
+## Tech Stack
+
+**Languages & Frameworks**  
+Python, ABAP, JavaScript, TypeScript, FastAPI, React
+
+**Enterprise & Integration**  
+SAP ABAP, SAP BTP, REST APIs, enterprise workflow design
+
+**Data & Infrastructure**  
+PostgreSQL, Docker, Kubernetes, Terraform
+
+**AI & Automation**  
+LLM pipelines, agent-based systems, prompt workflows, automation architecture
+
+## Contact
+
+- [LinkedIn](https://linkedin.com/in/umutsanli)
+- [umutsanli.com](https://umutsanli.com)
+- umut.sanli@umutsanli.com
