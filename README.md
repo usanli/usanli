@@ -1,68 +1,62 @@
 # Umut Şanlı
 
-Software Engineer and Customer Solution Manager focused on enterprise software, AI-assisted automation, SAP development, and modern web applications.
+Founder of [Elpis Technology](https://elpis.technology). SAP ABAP engineer and AI systems builder, based in Istanbul.
 
-I work at the intersection of business needs and technical implementation, designing and delivering solutions that combine SAP expertise, full-stack development, and AI-driven systems.
+I build AI systems that survive contact with real operations: document processing, verification, retrieval and agentic workflows, wired into the ERP and internal systems a company already depends on. Most of the judgment behind that comes from eight years of enterprise SAP delivery, watching which things quietly stop working a few weeks after the demo.
 
-## About Me
+## Now
 
-- Customer Solution Manager with a background in SAP ABAP development, enterprise solution design, and technical leadership
-- MSc in Software Engineering
-- Experienced in building AI-assisted applications, workflow automation tools, and SAP-integrated platforms
-- Interested in multi-agent LLM systems, enterprise AI adoption, and scalable software architecture
+- Running [Elpis Technology](https://elpis.technology), a one-person consultancy building and operating AI systems for enterprises
+- Freelance SAP ABAP engineering on an order-to-cash and collections product for a German software vendor
+- AngularJS and ABAP development for a European public transport operator
+- Designing a product line of AI tools for document processing, receivables prioritization, compliance and ABAP modernization
 
-## Current Focus
+## Background
 
-- Multi-agent LLM pipelines for software development
-- AI-powered enterprise automation products
-- SAP-integrated web applications
-- Full-stack development with Python, FastAPI, React, and PostgreSQL
-- Cloud-native architectures and deployment workflows
+- **MSc, Software Engineering**, Boğaziçi University, 2025. Graduated first in cohort; capstone project WebWeaver ranked first among all capstone projects
+- **BSc, Physics**, Boğaziçi University, 2022
+- **Aya Bilişim**, 2019 to 2026: ABAP Consultant → SAP Support Manager → Customer Solution Manager → Customer Solution Manager & AI Lead. Designed and built the company's AI product portfolio
+- Enterprise SAP delivery across FI, MM, SD, TRM and S/4HANA for organizations in food production, furniture manufacturing, chemicals and industrial oils, food retail and restaurant chains, mining, energy and waste to energy, automotive, textiles, paper and packaging, agriculture, cosmetics, steel, diversified holding groups and public transportation
 
-## Core Expertise
+## Core expertise
 
-- SAP ABAP, S/4HANA, SAP BTP
-- Enterprise solution design and customer-facing technical consulting
-- AI-assisted software systems and workflow automation
-- Backend development with Python and FastAPI
-- Frontend development with React
-- Relational databases and API-based integrations
-- Docker, Kubernetes, Terraform, and cloud platforms
+**AI systems**  
+Agentic architectures with LangChain, LangGraph and CrewAI. Retrieval augmented generation with pgvector. Multi-agent pipelines. OCR and vision-language document pipelines. Local inference and benchmarking with MLX. Evaluation-driven model selection rather than defaulting to the largest available model.
 
-## Selected Projects
+**SAP**  
+ABAP, S/4HANA, FI, MM, SD, TRM, CDS views, OData services, Fiori, SAP BTP, integration with external systems including Microsoft Graph.
+
+**Web and backend**  
+Next.js, React, TypeScript, FastAPI, Python, PostgreSQL, Prisma, REST and BFF patterns.
+
+**Infrastructure**  
+Google Cloud Platform, Kubernetes, Terraform, Docker, infrastructure as code and CI/CD, in production rather than in tutorials.
+
+## Selected work
 
 ### WebWeaver
-Multi-agent LLM pipeline for software development.  
-An AI-based system designed to automate website and application creation through specialized agents responsible for planning, design, content generation, implementation, and quality assurance.
+Multi-agent LLM pipeline that generates websites and applications through specialized agents handling planning, design, content, implementation and quality assurance. MSc capstone, ranked first among all projects in its cohort.
 
 ### ayAInvoice
-AI-powered invoice automation solution integrated with SAP processes.  
-Focused on reducing manual financial operations through intelligent document handling and enterprise workflow integration.
+Two-stage OCR pipeline for Turkish e-invoice processing, combining a vision-language model for extraction with a language model for structuring and validation. Built at Aya Bilişim.
 
 ### ayAgree
-SAP-integrated e-reconciliation platform.  
-Designed to streamline reconciliation processes between companies and their business partners through a structured and auditable workflow.
+AI-assisted e-reconciliation platform with bidirectional email parsing, giving companies and their business partners a structured and auditable reconciliation workflow. Deployed at several enterprise clients. Built at Aya Bilişim.
 
 ### ayAware
-AI-assisted task and risk tracking solution.  
-Built to improve operational visibility, prioritization, and execution monitoring for enterprise teams.
+Task and risk dashboard on top of Microsoft Planner, built to improve operational visibility and prioritization for enterprise teams. Built at Aya Bilişim.
 
-## Tech Stack
+### Enterprise RAG Knowledge Assistant
+Retrieval augmented knowledge assistant on LangGraph and pgvector, containerized and deployed on GCP for multiple clients. Built at Aya Bilişim.
 
-**Languages & Frameworks**  
-Python, ABAP, JavaScript, TypeScript, FastAPI, React
+## Talks
 
-**Enterprise & Integration**  
-SAP ABAP, SAP BTP, REST APIs, enterprise workflow design
-
-**Data & Infrastructure**  
-PostgreSQL, Docker, Kubernetes, Terraform
-
-**AI & Automation**  
-LLM pipelines, agent-based systems, prompt workflows, automation architecture
+**10th International Students Science Congress**  
+Multi-agent AI pipeline for molecule generation, using the HER2 target protein.
 
 ## Contact
 
-- [LinkedIn](https://linkedin.com/in/umutsanli)
+- [elpis.technology](https://elpis.technology)
+- [LinkedIn](https://www.linkedin.com/in/umutsanli/)
 - [umutsanli.com](https://umutsanli.com)
 - umut.sanli@umutsanli.com
