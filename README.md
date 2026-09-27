@@ -4,7 +4,7 @@
 
 **AI Engineer · Enterprise AI · Retrieval · Document AI · Multi-Agent Systems**
 
-I build AI systems that hold up in production.
+I build AI systems for real business problems.
 
 [Website](https://umutsanli.com) · [LinkedIn](https://www.linkedin.com/in/umutsanli/) · [Elpis Technology](https://elpis.technology)
 
@@ -16,44 +16,44 @@ I build AI systems that hold up in production.
 
 I'm an **AI Engineer at ING Hubs** and the founder of **Elpis Technology**.
 
-I build AI systems for real enterprise workflows: retrieval, document intelligence, multi-agent orchestration and automation connected to the systems businesses already depend on.
+My work is mostly around AI systems that have to work with real company data and existing software. I build retrieval systems, document processing pipelines, AI agents and integrations with enterprise applications.
 
-I started my career in **SAP ABAP**, spending eight years inside enterprise software across finance, procurement, sales, supply chain and core ERP systems. During my MSc in Software Engineering at Boğaziçi University, I moved deeper into AI and began building systems rather than only studying models.
+I started my career as an **SAP ABAP consultant** and spent eight years working on enterprise software across finance, procurement, sales, supply chain and ERP systems. During my MSc in Software Engineering at Boğaziçi University, I moved further into AI and started building production-oriented systems.
 
-That background shapes how I approach AI:
+That background has a strong influence on how I build AI:
 
-- **Private by default** — on-premises when the data requires it
-- **Permission-aware** — access rights are enforced before retrieval results reach the model
-- **Measured, not guessed** — golden sets and retrieval metrics before deployment
-- **Deterministic where it matters** — business logic and calculations stay in code
-- **Human where it matters** — AI drafts, people make consequential decisions
-- **Integrated, not isolated** — AI output reaches the ERP and operational systems where work actually happens
+- **Keep sensitive data private** when the environment requires it
+- **Respect existing permissions** instead of creating a second access model
+- **Measure retrieval and model output** before relying on it
+- **Keep business rules in code** when they need deterministic behavior
+- **Use AI where it adds value** and keep people in the loop for important decisions
+- **Connect AI to existing systems** instead of building isolated demos
 
-## What I build
+## What I work on
 
-### Retrieval & RAG
+### Retrieval and RAG
 
-Hybrid retrieval systems combining **semantic, Turkish lexical and exact-identifier search**, with authorization enforced before results merge.
+I build retrieval systems that combine semantic search, Turkish lexical search and exact identifier matching.
 
-I work with pgvector, embeddings, reranking, evaluation sets, **NDCG / Recall**, and permission-aware retrieval across sources such as NTFS, Active Directory and SharePoint.
+My work includes pgvector, embeddings, reranking, retrieval evaluation and permission-aware search across sources such as NTFS, Active Directory and SharePoint.
 
 ### Document AI
 
-Vision-language pipelines for invoices and business documents: OCR, structured extraction, validation and enterprise integration.
+I work on invoice and business document pipelines covering OCR, vision-language models, structured extraction, validation and ERP integration.
 
-Recent work includes local inference with **Qwen3-VL + MLX-LM** and automated posting into SAP through **BAPI / IDoc**.
+Recent work includes local inference with **Qwen3-VL and MLX-LM**, with sensitive documents processed locally before data is sent to SAP.
 
-### Agents & orchestration
+### AI agents
 
-Multi-agent systems where specialized agents have explicit responsibilities, structured handoffs, shared context and recovery paths.
+I build multi-agent systems where different agents have specific responsibilities and pass structured information between each other.
 
-Primary tools include **LangGraph, LangChain and CrewAI**.
+Tools I have worked with include **LangGraph, LangChain and CrewAI**.
 
 ### Enterprise integration
 
-AI connected to the systems that run the business rather than living in a demo.
+A large part of my work is connecting AI to the software companies already use.
 
-My SAP background includes **ABAP, S/4HANA, FI, MM, SD, TRM, CDS, OData, BAPI, IDoc and SAP BTP**, alongside modern Python and TypeScript services.
+My SAP background includes **ABAP, S/4HANA, FI, MM, SD, TRM, CDS, OData, BAPI, IDoc and SAP BTP**, alongside Python and TypeScript services.
 
 ---
 
@@ -61,32 +61,31 @@ My SAP background includes **ABAP, S/4HANA, FI, MM, SD, TRM, CDS, OData, BAPI, I
 
 ### [Pithos](https://elpis.technology/products/pithos/) · Enterprise Retrieval
 
-An on-premises, Turkish-first retrieval layer for enterprise AI applications.
+An on-premises retrieval layer for enterprise AI applications, with a focus on Turkish documents and existing access permissions.
 
-- Semantic, Turkish lexical and exact-identifier retrieval
-- NTFS, Active Directory and SharePoint permissions enforced before result merging
-- Docker-deployed and designed for air-gapped environments
-- Turkish OCR with low-confidence review quarantine
+- Semantic, Turkish lexical and exact-identifier search
+- NTFS, Active Directory and SharePoint permissions checked before results are combined
+- Docker-based deployment for restricted environments
+- Turkish OCR with low-confidence review
 - `0.8929 NDCG@10` · `1.00 Recall@20`
 - Evaluation set: `530 documents` · `60 Turkish queries`
 
-**Role:** Founder & sole developer, Elpis Technology
+**Role:** Founder and developer, Elpis Technology
 
 ---
 
 ### Hermes · Local Document AI
 
-A local vision-language pipeline for Turkish e-invoice and e-archive processing.
+A local vision-language pipeline for Turkish e-invoice and e-archive documents.
 
-**Pipeline:**  
 `Document → Qwen3-VL-8B → Structured JSON → Validation → SAP BAPI / IDoc`
 
-- Runs locally on Apple Silicon through MLX-LM
+- Runs locally on Apple Silicon with MLX-LM
 - Extracts structured invoice data
-- Validates output before ERP submission
-- Designed to keep sensitive financial documents inside the enterprise environment
+- Validates the result before ERP submission
+- Keeps sensitive financial documents inside the enterprise environment
 
-**Role:** Architect & Lead Developer
+**Role:** Architect and developer
 
 ---
 
@@ -94,48 +93,46 @@ A local vision-language pipeline for Turkish e-invoice and e-archive processing.
 
 A five-agent LLM pipeline that generates websites and applications from a user brief.
 
-`Brief → Planning → Content → Layout → Code → QA → Deployable site`
+`Brief → Planning → Content → Layout → Code → QA`
 
-The system coordinates specialized agents, passes structured context between them and includes recovery when an agent fails.
+The project uses separate agents for planning, content, layout, implementation and quality checks.
 
-**Recognition:** Best Capstone Project at Boğaziçi University  
+**Recognition:** Best Capstone Project, Boğaziçi University  
 **MSc Software Engineering:** 3.91 GPA · First in cohort
 
 ---
 
 ### Petrol Ofisi AI Partnership · Enterprise AI
 
-AI work spanning executive education, business transformation and process automation.
+AI work covering business transformation, AI opportunity discovery and process automation.
 
-Built a **local-LLM Business Transformation Cockpit** that:
+One of the projects was a local-LLM Business Transformation Cockpit that:
 
 1. Reads enterprise process inventories
-2. Computes workload analytically in code
-3. Uses a local LLM to draft AI opportunities
-4. Routes opportunities through process-owner workshops
-5. Produces a structured and auditable AI opportunity portfolio
+2. Calculates workload and process metrics in code
+3. Uses a local LLM to suggest potential AI use cases
+4. Takes the suggestions into process-owner workshops
+5. Produces a structured list of AI opportunities
 
-`Code calculates → AI drafts → People decide`
-
-Coverage included **12 directorates and 50 group directorates**.
+The work covered **12 directorates and 50 group directorates**.
 
 ---
 
 ### Harmonia · Financial Reconciliation
 
-AI-powered e-reconciliation platform for outgoing and incoming enterprise financial matching.
+An AI-powered e-reconciliation platform for matching outgoing and incoming financial records.
 
 - Designed and built end-to-end
 - ML-based email parsing
-- Matching engine for both flow directions
-- Python / FastAPI backend on SAP BTP
+- Matching engine for both directions
+- Python and FastAPI backend on SAP BTP
 - Deployed to enterprise clients
 
 ---
 
 ### Vencopo · SAP Integration
 
-B2B vendor collaboration platform exposing SAP procurement workflows through a modern web interface.
+A B2B vendor collaboration platform built around SAP procurement processes.
 
 `Supplier → Portal → RBAC → OData / RFC / BAPI → SAP`
 
@@ -147,9 +144,9 @@ Supports RFQ, purchase orders, advance shipping notices and document sharing wit
 
 ### Enterprise RAG Knowledge Assistant
 
-A LangGraph + pgvector retrieval assistant designed for enterprise knowledge access.
+A LangGraph and pgvector based retrieval assistant for enterprise knowledge.
 
-Containerized and deployed on GCP, with retrieval and generation separated so the system can be evaluated and controlled independently.
+The system is containerized and deployed on GCP. Retrieval and generation are kept separate so they can be evaluated independently.
 
 ---
 
@@ -172,7 +169,7 @@ Containerized and deployed on GCP, with retrieval and generation separated so th
 **ING Hubs** · AI Engineer  
 `2026 – Present`
 
-**Elpis Technology** · Founder & Principal Consultant  
+**Elpis Technology** · Founder  
 `2026 – Present`
 
 **Aya Bilişim** · ABAP Consultant → SAP Support Manager → Customer Solution Manager → Customer Solution Manager & AI Lead  
@@ -212,12 +209,12 @@ My enterprise SAP work covered organizations in food production, furniture, chem
 
 ## Connect
 
-If you're working on **applied AI, enterprise retrieval, document intelligence, local LLMs, AI agents or AI engineering in regulated environments**, I'd be happy to connect.
+I'm interested in **applied AI, enterprise retrieval, document intelligence, local LLMs, AI agents and AI engineering in regulated environments**.
 
 **[umutsanli.com](https://umutsanli.com)** · **[LinkedIn](https://www.linkedin.com/in/umutsanli/)** · **[Elpis Technology](https://elpis.technology)** · **[Email](mailto:umut.sanli@umutsanli.com)**
 
 <div align="center">
 
-<sub>Building AI systems that enterprises can trust.</sub>
+<sub>AI systems for real business problems.</sub>
 
 </div>
